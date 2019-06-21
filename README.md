@@ -26,6 +26,10 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+express is a framework that sits on top of a http server module provided by node and it also adds routing and middleware support
+
+
+
 - [ ] Describe Middleware?
 
 - [ ] Describe a Resource?
