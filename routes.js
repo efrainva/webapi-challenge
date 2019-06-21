@@ -32,17 +32,17 @@ router.get('/pro/:id',async (req,res)=> {
 });
 //POST
 
-// router.post('/post/1',async(req,res)=>{
-//   //const postinfo = {req.body}
-//   try{
-//     const root = await db.insert(req.body);
-//     res.status(201).json(root);
-//   }catch(er){
-//     console.log(err);
-//     res.status(500).json({
-//       message:'err on post' })
-//   }
-// })
+router.post('/post/1',async(req,res)=>{
+  //const postinfo = {req.body}
+  try{
+    const root = await db.insert(req.body);
+    res.status(201).json(root);
+  }catch(er){
+    console.log(err);
+    res.status(500).json({
+      message:'err on post' })
+  }
+})
 
 //UPDATE
 
